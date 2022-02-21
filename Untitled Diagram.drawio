@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T17:12:26.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="yS1Xa-O4UUfRYy65njDk" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T17:18:40.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="SdT9_JrHn7llY4zN7tqM" version="16.6.1" type="github">
   <diagram id="MXG-88RzRxY_8FcKmBrY" name="class">
     <mxGraphModel dx="868" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,25 +20,37 @@
           <mxGeometry x="90" y="150" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2g6JUs7ZHy0WiZ9AMZwg-4" value="- signature: string&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EmL70gxFxxrzOR1VFb2s-1">
-          <mxGeometry x="90" y="170" width="120" height="20" as="geometry" />
+          <mxGeometry x="90" y="210" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2g6JUs7ZHy0WiZ9AMZwg-5" value="+ getMaterial(): string" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EmL70gxFxxrzOR1VFb2s-1">
-          <mxGeometry x="90" y="260" width="120" height="20" as="geometry" />
+          <mxGeometry x="90" y="300" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2g6JUs7ZHy0WiZ9AMZwg-6" value="+ getNumbering(): int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EmL70gxFxxrzOR1VFb2s-1">
-          <mxGeometry x="90" y="280" width="120" height="20" as="geometry" />
+          <mxGeometry x="90" y="320" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2g6JUs7ZHy0WiZ9AMZwg-7" value="+ getSignature(): string" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EmL70gxFxxrzOR1VFb2s-1">
-          <mxGeometry x="90" y="300" width="120" height="30" as="geometry" />
+          <mxGeometry x="90" y="340" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2g6JUs7ZHy0WiZ9AMZwg-8" value="+ Print(): void" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EmL70gxFxxrzOR1VFb2s-1">
-          <mxGeometry x="90" y="240" width="120" height="20" as="geometry" />
+          <mxGeometry x="90" y="280" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2g6JUs7ZHy0WiZ9AMZwg-9" value="+ctor(string, int, string)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EmL70gxFxxrzOR1VFb2s-1">
-          <mxGeometry x="90" y="210" width="120" height="30" as="geometry" />
+        <mxCell id="2g6JUs7ZHy0WiZ9AMZwg-9" value="+ctor(string, int, int, string, string)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EmL70gxFxxrzOR1VFb2s-1">
+          <mxGeometry x="90" y="250" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2g6JUs7ZHy0WiZ9AMZwg-10" value="+ ctor()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EmL70gxFxxrzOR1VFb2s-1">
+          <mxGeometry x="90" y="230" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qZLJs9ydA58mrAWCqnsW-0" value="- date: int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EmL70gxFxxrzOR1VFb2s-1">
+          <mxGeometry x="90" y="170" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qZLJs9ydA58mrAWCqnsW-1" value="- wear: string" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EmL70gxFxxrzOR1VFb2s-1">
           <mxGeometry x="90" y="190" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qZLJs9ydA58mrAWCqnsW-2" value="+ getDate(): int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EmL70gxFxxrzOR1VFb2s-1">
+          <mxGeometry x="90" y="370" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qZLJs9ydA58mrAWCqnsW-3" value="+ getWear(): string" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EmL70gxFxxrzOR1VFb2s-1">
+          <mxGeometry x="90" y="390" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
